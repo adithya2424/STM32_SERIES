@@ -3,9 +3,8 @@
 #include "stm32f446xx.h"
 #include "adc.h"
 
-//This is the code that implements both ADC and SPI
-//The ADC readings are obtained from a GAS sensor
-//The SDHC flash memory used here is based on SPI
+//This is the code that implements ADC single shot reading
+
 
 uint32_t gas_sensor;
 
