@@ -1,0 +1,6 @@
+spi.c:32:6:spi_gpio_setup	4	static
+spi.c:77:6:spi_config	4	static
+spi.c:109:6:spi1_transmit	24	static
+spi.c:130:6:spi1_receive	24	static
+spi.c:152:6:cs_enable	4	static
+spi.c:157:6:cs_disable	4	static
