@@ -13,4 +13,3 @@ SPI_STM:
 This demonstrates a simple SPI transaction. The readings are observed on an oscilloscope. This baremetal code can be used to develop many applications.
 The example transmits a 8-bit value of '0x06'. 
 
-Will release exciting projects soon.
