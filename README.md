@@ -14,6 +14,9 @@ Welcome to the STM32 Bare Metal Drivers repository. This project focuses on crea
 ### Prerequisites
 
 - **STM32 Nucleo F446ZE Board**: You can use the Nucleo F446ZE or any other STM32 board with similar peripherals.
+- **Toolchain**: This repository is compatible with the GNU ARM toolchain (ARM GCC) for compiling and flashing the code. Make sure to download ARM GCC from here. [https://launchpad.net/gcc-arm-embedded][https://learn.arm.com/install-guides/gcc/arm-gnu/#download]
+- **JTAG/SWD Debugger**: A JTAG/SWD debugger (such as ST-Link) is required to program the STM32 board and debug the application.[https://github.com/stlink-org/stlink/blob/testing/doc/compiling.md#Windows]
+-- **GNU Make**: This repository also requires GNU Make for build automation. You can download it from here.
 - **Toolchain**: This repository is compatible with the GNU ARM toolchain (ARM GCC) for compiling and flashing the code. Make sure to download ARM GCC from here. [https://launchpad.net/gcc-arm-embedded]
 - **JTAG/SWD Debugger**: A JTAG/SWD debugger (such as ST-Link) is required to program the STM32 board and debug the application.
 - **GNU Make**: This repository also requires GNU Make for build automation. You can download it from here.[https://www.gnu.org/software/make/]
