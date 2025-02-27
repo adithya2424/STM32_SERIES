@@ -21,11 +21,18 @@ In the following section, we will explore memory segmentation and how different 
 
 The segments are as below:
 
-Higher Memory ----->  Stack                      (Local variable / Function args / Return )
-                      ------                     (Unallocated Memory)
-                    ^ Heap                       (malloc/calloc)
-                      Uninitialized Data(BSS)    (static/global)   
-                      Initialized Data           (static/global)                            
- Lower Memory ------> Text                       (Read Only)
+Higher Memory
+│
+├── Stack (Local variables / Function arguments / Return values)
+│
+├── (Unallocated Memory)
+│
+├── Heap (Dynamic allocation: malloc / calloc)
+│
+├── Uninitialized Data (BSS) (Static / Global variables - uninitialized)
+│
+├── Initialized Data (Static / Global variables - initialized)
+│
+└── Text (Read-Only, contains code)
 ---  
 
