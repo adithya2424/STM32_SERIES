@@ -1,3 +1,6 @@
+Here's your properly formatted `.md` file with memory segments as a numbered list:  
+
+```md
 # Understanding CPU Programming  
 
 Programming a CPU can be challenging due to the variety of architectures available. To simplify this, it's helpful to think in terms of high-level abstract models. Understanding how different components of a CPU interact provides a clearer and more detailed perspective.  
@@ -16,23 +19,18 @@ In the programmer’s model, the CPU consists of multiple registers that store d
 3. The result is stored in another register.  
 4. The processed data can be written back to memory.  
 
-### Next: Memory Segments  
+## Memory Segments  
 In the following section, we will explore memory segmentation and how different memory regions are utilized in CPU operations.  
 
-# The segments are as below:
+### Memory Layout  
 
-Higher Memory
-│
-├── Stack (Local variables / Function arguments / Return values)
-│
-├── (Unallocated Memory)
-│
-├── Heap (Dynamic allocation: malloc / calloc)
-│
-├── Uninitialized Data (BSS) (Static / Global variables - uninitialized)
-│
-├── Initialized Data (Static / Global variables - initialized)
-│
-└── Text (Read-Only, contains code)
+1. **Stack** – Local variables / Function arguments / Return values  
+2. **Unallocated Memory**  
+3. **Heap** – Dynamic allocation (`malloc` / `calloc`)  
+4. **Uninitialized Data (BSS)** – Static / Global variables (uninitialized)  
+5. **Initialized Data** – Static / Global variables (initialized)  
+6. **Text** – Read-only section (contains code)  
+
 ---  
-
+This version ensures clarity while keeping the content structured and professional. Let me know if you'd like any modifications! 🚀  
+```
