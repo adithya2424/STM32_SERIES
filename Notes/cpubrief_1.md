@@ -19,5 +19,13 @@ In the programmer’s model, the CPU consists of multiple registers that store d
 ### Next: Memory Segments  
 In the following section, we will explore memory segmentation and how different memory regions are utilized in CPU operations.  
 
+The segments are as below:
+
+Higher Memory ----->  Stack                      (Local variable / Function args / Return )
+                      ------                     (Unallocated Memory)
+                    ^ Heap                       (malloc/calloc)
+                      Uninitialized Data(BSS)    (static/global)   
+                      Initialized Data           (static/global)                            
+ Lower Memory ------> Text                       (Read Only)
 ---  
 
