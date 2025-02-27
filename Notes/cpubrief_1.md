@@ -1,6 +1,3 @@
-Here's your properly formatted `.md` file with memory segments as a numbered list:  
-
-```md
 # Understanding CPU Programming  
 
 Programming a CPU can be challenging due to the variety of architectures available. To simplify this, it's helpful to think in terms of high-level abstract models. Understanding how different components of a CPU interact provides a clearer and more detailed perspective.  
@@ -30,7 +27,3 @@ In the following section, we will explore memory segmentation and how different 
 4. **Uninitialized Data (BSS)** – Static / Global variables (uninitialized)  
 5. **Initialized Data** – Static / Global variables (initialized)  
 6. **Text** – Read-only section (contains code)  
-
----  
-This version ensures clarity while keeping the content structured and professional. Let me know if you'd like any modifications! 🚀  
-```
