@@ -19,7 +19,7 @@ In the programmer’s model, the CPU consists of multiple registers that store d
 ### Next: Memory Segments  
 In the following section, we will explore memory segmentation and how different memory regions are utilized in CPU operations.  
 
-The segments are as below:
+# The segments are as below:
 
 Higher Memory
 │
